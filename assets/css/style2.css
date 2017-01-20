@@ -22,20 +22,15 @@ text-shadow:2px 2px 2px black;
 }
 
 
-.about{
+nav  {
 	position:relative;
-    display: inline-block;
-    width: 80px;
-    height: 12px;
-  	left:470px;
+	left:490px;
   	top:50px;
-	padding-left: 3px;
-	text-shadow: .25px .25px   black;
-	line-height: 12px;
-	text-align: center;
-
+  	display:inline-block;
 
 }
+
+nav a{padding:5px;}
 
 
 
@@ -87,9 +82,8 @@ position:absolute;
 left:20px;
 right:20px;
 top: 70px;
-
-
 }
+
 
 #smline{
 	background-color:grey;
@@ -110,8 +104,8 @@ top: 70px;
  	 line-height: 1.5;
  	 font-weight:bold;
  	 font-size:14px;
-
 }
+
 
 #connect{
 	border:1px #4aaaa5;
@@ -123,21 +117,31 @@ top: 70px;
 	background: url(../images/cork-wallet.png);
 	box-shadow:10px 10px 10px black;
 	position: relative;
-
+   text-align:center;
 	}
 
 
-  
-.floating-box {
-	position: absolute;
-	float:left;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 10px;  
-  	border:1px solid black;
-  	box-shadow: 5px 10px 10px  black;
+#connect a{
+	  display: inline-block;
+	  margin-top: 15px;
+	  
+
+}  
+
+#connect img {
+ width:50px;
+ height:50px;
+ border:1px solid black;
+ margin:8px;
+ box-shadow:10px 10px 10px black;
+}
   	
+
+a{
+	font-size:18px;
+	font-weight:bold;
+	color:grey;
+	text-decoration: none;
 }
 
 
@@ -170,16 +174,25 @@ h3{
 }
 
 
-a{
-	font-size:18px;
-	font-weight:bold;
-	color:grey;
-	text-decoration: none;
-
+h4{
+	position: relative;
+    top: -60px;
+    text-align: center;
+    width: 150px;
+    background-color: #4aaaa5;
+    color:white;
+    line-height: 25px;
+    height:30px;
+	width:200px;
+  	font-family: 'Georgia', Times, Times New Roman, serif;
+  	font-size:16px;
+  	text-shadow:1px 1px  black;
 }
 
 #small{
 	background-color:#4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight:bold;
 	height:5px;
 	width:1200px;
 	margin-left:66px;
@@ -201,13 +214,26 @@ footer{
 }
 
 
-
 #inner2 img{
-	width:200px;
 	height:175px;
-	float:left;
-	margin:25px;
+	width:200px;
+	margin:20px;
+	margin-top: 0px;
+	margin-left: 0px;
+	box-shadow:10px 10px 10px black;
+	border:1px solid black;
+	
+	
+}
 
+.box1 a{
+	width: 200px;
+    height: 175px;
+    padding: 0px;
+    margin: 25px;
+    display: block;
+    float:left;
+    position:relative;
 }
 
 
@@ -271,11 +297,3 @@ footer{
 }
 
 
-.box1{
-	height:175px;
-	width:200px;
-	float:left;
-	background-color: white;
-	position:relative;
-	margin:30px;
-}
